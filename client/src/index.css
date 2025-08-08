@@ -9,6 +9,11 @@
   --color-dark: #2b0c0e;
   --color-primary: #7a2d35;
   --color-light: #c46565;
+  --color-glow: rgba(255, 69, 0, 0.5);
   --font-anton: "Anton";
   --font-lato: "Lato";
+}
+
+.glowing {
+  text-shadow: 0 0 8px var(--color-glow);
 }
